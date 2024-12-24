@@ -12,7 +12,7 @@ let setinput = "";
 let highscore = 0;
 
 let generatenum = () => {
-  genNum = Math.trunc(Math.random() * 5) + 1;
+  genNum = Math.trunc(Math.random() * 10) + 1;
   console.log(genNum); 
 };
 
